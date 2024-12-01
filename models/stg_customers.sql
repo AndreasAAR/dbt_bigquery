@@ -1,8 +1,5 @@
-
-
-select
-    id as customer_id,
+SELECT 
+    id AS customer_id,
     first_name,
     last_name
-
-from `dbt-tutorial`.jaffle_shop.customers
+FROM jaffle_shop.jaffle_shop.customers;
