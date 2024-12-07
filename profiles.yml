@@ -1,0 +1,10 @@
+outputs:
+  dev:
+    type: bigquery
+    method: service-account
+    project: dbtproject2-443318
+    dataset: jaffle_shop
+    schema: jaffle_shop  # Update to match your dataset
+    location: EU  # Ensure the region matches
+    keyfile: /path/to/service_account_key.json
+    threads: 1
